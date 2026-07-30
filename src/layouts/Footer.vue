@@ -7,7 +7,7 @@
         <a href="https://github.com/breathe21" class="text-xl hover:text-gray-400">
           <i class="fa-brands fa-github"></i>
         </a>
-        <a href="mailto:tacongcuong32@gmail.com" class="text-xl hover:text-gray-400">
+        <a href="mailto:trghoangtuananh21@gmail.com" class="text-xl hover:text-gray-400">
           <i class="fa-solid fa-envelope"></i>
         </a>
     </div>
