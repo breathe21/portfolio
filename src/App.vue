@@ -38,6 +38,10 @@ AOS.init({
   duration: 800,
 });
 
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import 'swiper/css';
+import { Autoplay } from 'swiper/modules';
+
 
 </script>
 
@@ -85,7 +89,6 @@ AOS.init({
 
       <!-- About Me -->
       <section id="about" class="py-20">
-
       <Title :title="'About Me'" />
       <div class="py-20 grid md:grid-cols-2 items-center gap-10">
         <div class="overflow-hidden md:h-[350px] md:w-[350px] lg:h-[400px] lg:w-[400px] rounded-3xl mx-auto"
@@ -130,7 +133,6 @@ AOS.init({
     <!-- Contact -->
     <section class="py-20" id="contact" data-aos="fade-up">
       <Title :title="'Contact Me'" />
-
       <div class="flex gap-2 bg-gray-100 p-5 rounded-4xl w-fit text-center mx-auto mt-10">
         <i class="fa-solid fa-envelope text-2xl"></i>
         <p>trghoangtuananh21@gmail.com</p>
@@ -173,3 +175,24 @@ AOS.init({
     </div>
   <Footer />
 </template>
+
+
+<style scoped>
+@keyframes routeImage {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  50% {
+    transform: rotateY(180deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.image-rotate {
+  animation: routeImage 20s linear infinite;
+}
+</style>
