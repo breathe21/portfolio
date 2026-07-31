@@ -11,7 +11,7 @@
         <i class="fa-solid fa-envelope"></i>
       </a>
     </div>
-    <p class="text-sm opacity-70">© 2025 Trương Hoàng Tuấn Anh. All rights reserved.</p>
+    <p class="text-sm opacity-70">© 2026 Trương Hoàng Tuấn Anh. All rights reserved.</p>
   </div>
 </footer>
 </template>
